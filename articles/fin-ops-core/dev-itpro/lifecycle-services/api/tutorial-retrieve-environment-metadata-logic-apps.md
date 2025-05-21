@@ -116,7 +116,8 @@ The response that you receive resembles the following example.
             "CanStart": false,
             "CanStop": false,
             "DatabaseDailyBackupsEnabled": true,
-            "DatabaseBackupLocation": "Central India"
+            "DatabaseBackupLocation": "Central India",
+            "DatabaseDailyBackupsSucceeded": "Yes"
         },
         {
             "EnvironmentId": "60b557b2-fefb-4690-859e-f83caf98c17e",
@@ -140,7 +141,8 @@ The response that you receive resembles the following example.
             "CanStart": false,
             "CanStop": true,
             "DatabaseDailyBackupsEnabled": true,
-            "DatabaseBackupLocation": "East US"
+            "DatabaseBackupLocation": "East US",
+            "DatabaseDailyBackupsSucceeded": "Yes"
         }
     ],
     "IsSuccess": true,
