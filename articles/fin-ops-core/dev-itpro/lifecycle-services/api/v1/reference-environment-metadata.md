@@ -106,6 +106,9 @@ For each environment, the following properties are available. If no value is ava
 | DeploymentStatusDisplay | The current status of the environment. |
 | CanStart | A Boolean value that indicates whether the environment can be started. |
 | CanStop | A Boolean value that indicates whether the environment can be stopped. |
+| DatabaseDailyBackupsEnabled | A Boolean value that indicates if daily backups is enabled. |
+| DatabaseBackupLocation | The Azure location of your backups. |
+| DatabaseDailyBackupsSucceeded | A string that indicates if your daily backup has succeeded. |
 
 ### Example response
 
@@ -138,7 +141,8 @@ For each environment, the following properties are available. If no value is ava
             "CanStart": false,
             "CanStop": false,
             "DatabaseDailyBackupsEnabled": true,
-            "DatabaseBackupLocation": "Central India"
+            "DatabaseBackupLocation": "Central India",
+            "DatabaseDailyBackupsSucceeded": "Yes"
         },
         {
             "EnvironmentId": "60b557b2-fefb-4690-859e-f83caf98c17e",
@@ -162,7 +166,8 @@ For each environment, the following properties are available. If no value is ava
             "CanStart": false,
             "CanStop": true,
             "DatabaseDailyBackupsEnabled": true,
-            "DatabaseBackupLocation": "East US"
+            "DatabaseBackupLocation": "East US",
+            "DatabaseDailyBackupsSucceeded": "Yes"
         }
     ],
     "IsSuccess": true,
